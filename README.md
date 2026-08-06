@@ -103,57 +103,5 @@ transactions
 | **6b**   | Rank all customers by total balance (DENSE_RANK, no CTE) |
 | **6c**   | Find branch(es) with the highest number of transactions (must use CTE) |
 
----
 
-## 5. How to Set Up and Run
 
-### Step 1: Create the database
-```sql
-CREATE DATABASE yourfullname;
-```
-> Replace `yourfullname` with your full name in lowercase, without spaces or Vietnamese diacritics.
-
-### Step 2: Connect to the database
-```bash
-\c tangsohan
-```
-
-### Step 3: Load the official data
-```bash
-\i MIS443_Finance_PostgreSQL.sql
-```
-
-### Step 4: Run the solution
-Open and execute the queries inside:
-```
-MIS443_Finance_Final_Exam_Completed.sql
-```
-
----
-
-## 6. Repository Structure
-
-| File                                      | Description                                |
-|-------------------------------------------|--------------------------------------------|
-| `MIS443_Finance_PostgreSQL.sql`           | Official data script (do **not** modify)   |
-| `MIS443_Finance_Final_Exam_Skeleton.sql`  | Original exam skeleton                     |
-| `MIS443_Finance_Final_Exam_Completed.sql` | **Completed solution**                     |
-| `README.md`                               | Project documentation                      |
-
----
-
-## 7. Submission Requirements
-
-Students must submit the following on **Moodle** and also upload them to a personal **GitHub** repository:
-
-- [x] Completed SQL file (`MIS443_Finance_Final_Exam_Completed.sql`)
-- [ ] Word Report
-- [ ] ERD Screenshot
-
-### Header to fill in the SQL file:
-
-```sql
-STUDENT ID :
-FULL NAME  :
-GITHUB URL :
-```
